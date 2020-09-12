@@ -61,10 +61,40 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+Node.js is used to be able to write JavaScript applications that are outside a browser(instead of haaving to use C, C++, Java, Python, Ruby, C#, and others.
+Node is useful 
+1. to write server code for web services that communicate with clients using JSON format.
+2. is Single-threaded (no need trying to handle multiple threads)
+3. is Asynchronous
+4. has the largest ecosystem of useful libraries/Npm repository
+Express sits on top of Node.js with it's array of functions(or middleware stack)
+Express is useful because
+1. it helps you manage everything from routes to handler requests and views
+2. is light-weight
+3. helps in fast-tracking development of server-based applications based on the requests made.
+
+
 1. Understand and explain the use of Middleware?
+
+Middleware are functions that are executed in the order they are placed into a server's code.
+there are 3 Types: 
+1. Built-in: are included in Express (although not added automatically to the application)
+2. Third-party: are npm modules we can install and import into our applications
+3. Custom: are functions we write to perform specific tasks we need in our application.
+
 1. The basic principles of the REST architectural style.
+
+A RESTFUL server should be stateless, cacheable, and allow for a layered model while providing a uniform interface.
+
 1. Understand and explain the use of Express Routers.
+
+Express routers makes building RESTful apps easy by using only a single URL per resource, and mapping incoming requests to the correct request handler based on 
+that URL.  Routers are easier to read because the code lines are shorter and all the handlers are written for that single URL base.
+
 1. Describe tooling used to manually test the correctness of an API.
+
+The tooling I used and learned this unit is called Postman.  It has a sleek interface and a user friendly way to make HTML requests without writing a ton of code.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
